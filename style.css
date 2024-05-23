@@ -1,0 +1,465 @@
+/* css reset */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* border: 2px solid red; */
+}
+
+#navbar::before {
+  content: "";
+  background-color: rgb(86, 0, 245);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;
+}
+
+#logo {
+  margin: 20px 50px;
+  padding: 0px 0px;
+  margin-right: 700px;
+}
+
+#logo img {
+  width: 60px;
+  border-radius: 200px;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  list-style: none;
+  margin: 30px;
+}
+
+#navbar ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 10px;
+  color: #7AB2B2;
+}
+
+#navbar ul li a:hover {
+  color: rgb(16, 17, 16);
+  background-color: #f6faf9;
+}
+
+/* home section */
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 100px 120px;
+}
+
+#home::before {
+  content: "";
+  background-image: url("AP fitness_files/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  /* broder: 2px solid red; */
+
+  position: absolute;
+  width: 100%;
+  height: 89%;
+
+  z-index: -1;
+  opacity: 1;
+
+  left: 0px;
+  top: 0px;
+}
+
+#home button {
+  align-items: center;
+  justify-content: center;
+  background-color: khaki;
+  width: 200px;
+  padding: 10px;
+  font-size: 19px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#home button:hover {
+  color: aqua;
+  background-color: #127d59;
+  width: 230px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+#home img {
+  border-radius: 30px;
+}
+
+#home h1 {
+  font-size: 4rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 5px;
+ 
+
+  color: #7e9567;
+  /* background-color: ghostwhite; */
+}
+
+#home p {
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* margin: ;
+    padding: ; */
+  color: #7AB2B2;
+  margin-bottom: 10px;
+}
+
+.video img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+/* card container */
+
+.card-container {
+  /* border: 2px solid red; */
+}
+
+.card-container::before {
+  content: "";
+  background-image: url("AP fitness_files/3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  /* border: 2px solid red;  */
+
+  position: absolute;
+  width: 100%;
+  height: 63.2%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#services {
+  display: flex;
+}
+
+.h1 {
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #514a43;
+  background-color: wheat;
+  text-align: center;
+  /* margin-bottom: 30px; */
+  /* margin-top: 30px; */
+  /* margin-bottom: 100px; */
+}
+
+.card1 {
+  /* border: 2px solid red; */
+  width: 400px;
+  height: 300px;
+  margin-left: 30px;
+  padding: 3px;
+  color: white;
+}
+
+.card1 h2 {
+  color: red;
+}
+
+.card1 img {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin: auto;
+  display: block;
+  
+}
+
+.card1 h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card1 p {
+  text-align: center;
+  color: #29071a;
+}
+
+.card2 {
+  /* border: 2px solid red; */
+  width: 400px;
+  height: 330px;
+  margin-left: 30px;
+  padding: 3px;
+}
+
+.card2 img {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin: auto;
+  display: block;
+}
+
+.card2 h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.card2 p {
+  text-align: center;
+  color: #29071a;
+}
+
+.card3 {
+  /* border: 2px solid red; */
+  width: 400px;
+  height: 330px;
+  margin-left: 30px;
+  padding: 3px;
+}
+
+.card3 img {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin: auto;
+  display: block;
+}
+
+.card3 h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.card3 p {
+  text-align: center;
+  color: #29071a;
+}
+
+.clientsection {
+  background-image: url("AP fitness_files/4.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.clientsection::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  /* border: 2px solid red;  */
+
+  position: absolute;
+  width: 100%;
+  height: 34%;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.clientsection h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #514a43;
+  background-color: wheat;
+
+  /* margin-bottom: 30px;
+     margin-top: 25px;  */
+}
+
+.client {
+  display: flex;
+  justify-content: center;
+  opacity: 0.7;
+}
+
+#client-item1 img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 200px;
+}
+
+#client-item2 img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 200px;
+}
+
+#client-item3 img {
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+#client-item4 img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 200px;
+}
+
+.contactus {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  /* border: 2px solid red;  */
+  display: block;
+  text-align: center;
+}
+
+.contactus::before {
+  content: "";
+  background-image: url("AP fitness_files/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  /* border: 2px solid red;  */
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.formgroup {
+  margin: 10px;
+  padding: 3px;
+}
+
+.contactus h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #514a43;
+  background-color: wheat;
+
+  margin-bottom: 30px;
+  margin-top: 2px;
+}
+
+.formgroup input#name {
+  /* border: 2px solid red; */
+  padding: 5px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.formgroup input#email {
+  /* border: 2px solid red; */
+  padding: 5px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.formgroup input#number {
+  /* border: 2px solid red; */
+  padding: 5px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.formgroup input#radio {
+  /* border: 2px solid red; */
+  padding: 5px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.contact {
+  /* border: 2px solid red; */
+  display: block;
+}
+
+.contact label {
+  /* border: 2px solid red; */
+  margin: 5px;
+  padding: 10px;
+  font-size: 20px;
+  color: #35d1a5;
+}
+
+.radio {
+  margin: 10px;
+  font-size: 20px;
+  color: #35d1a5;
+}
+
+.formgroup1 {
+  /* border: 2px solid red; */
+  margin: 5px;
+  padding: 10px;
+}
+
+.formgroup1 label {
+  /* border: 2px solid red; */
+  font-size: 20px;
+  color: #35d1a5;
+}
+
+.formgroup1 textarea {
+  /* border: 2px solid red; */
+  margin: 10px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.formgroup input#button {
+  /* border: 2px solid red; */
+  margin: 10px;
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 15px;
+  box-shadow: 5px 5px #127d59;
+}
+
+.formgroup input#button:hover {
+  color: black;
+  background-color: chartreuse;
+}
+
+.copy {
+  color: #514a43;
+  background-color: wheat;
+  justify-content: center;
+  text-align: center;
+}
+
+.copy {
+  padding: 10px;
+}

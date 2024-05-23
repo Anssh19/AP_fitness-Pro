@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://127.0.0.1:5500/pro2/ -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AP fitness</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="./AP fitness_files/logo.jpg" alt="error" />
+      </div>
+      <ul>
+        <li class="items">
+          <a href="http://127.0.0.1:5500/pro2/">Personal Traning</a>
+        </li>
+        <li class="items">
+          <a href="http://127.0.0.1:5500/pro2/">Health &amp; Nuitrition</a>
+        </li>
+        <li class="items">
+          <a href="http://127.0.0.1:5500/pro2/">Get in Touch</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <div class="video">
+        <img src="./AP fitness_files/video.png" alt="error" />
+      </div>
+      <h1 class="h-primary">AP FITNESS</h1>
+      <p>
+        Helping People Live Happier, Healthier Lives<br />
+        Through Improved Fitness, Nutrition And Mindset.
+      </p>
+      <button class="btn">Free Consultation</button>
+    </section>
+
+    <section class="card-container">
+      <h1 class="h1">MAXIMIZE YOUR LIFE</h1>
+      <div id="services">
+        <div class="card1">
+          <img src="./AP fitness_files/heart.png" alt="error" />
+          <h2>Body Analysis</h2>
+          <p>
+            I usually start my consultations off by performing an in-depth
+            health assessment, using functional movement screenings and a body
+            composition analysis, to gauge your most accurate fitness level.
+          </p>
+        </div>
+        <div class="card2">
+          <img src="./AP fitness_files/fitness.png" alt="error" />
+          <h2>Fitness Programs</h2>
+          <p>
+            Once fitness levels have been assessed, I design a custom workout
+            routine for your goals, time constraints, &amp; budget. I encourage,
+            motivate &amp; guide you to reach your health and fitness goals on a
+            personalized level.
+          </p>
+        </div>
+        <div class="card3">
+          <img src="./AP fitness_files/h1.png" alt="error" />
+          <h2>Body Analysis</h2>
+          <p>
+            I usually start my consultations off by performing an in-depth
+            health assessment, using functional movement screenings and a body
+            composition analysis, to gauge your most accurate fitness level.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="clientsection">
+      <h2 class="our">Our Client</h2>
+      <div class="client">
+        <div id="client-item1">
+          <img src="./AP fitness_files/instragram.jpg" alt="error" />
+        </div>
+        <div id="client-item2">
+          <img src="./AP fitness_files/f1.png" alt="error" />
+        </div>
+        <div id="client-item3">
+          <img src="./AP fitness_files/twitter.png" alt="error" />
+        </div>
+        <div id="client-item4">
+          <img src="./AP fitness_files/w.jpg" alt="error" />
+        </div>
+      </div>
+    </section>
+
+    <section class="contactus">
+      <h2>Contact Us</h2>
+      <div class="contact">
+        <form action="http://127.0.0.1:5500/pro2/">
+          <div class="formgroup">
+            <label for="name"> Name</label><br />
+            <input
+              type="text"
+              name="myname"
+              id="name"
+              placeholder="Full Name"
+            />
+          </div>
+          <div class="formgroup">
+            <label for="email"> Email </label><br />
+            <input
+              type="email"
+              name="myemail"
+              id="email"
+              placeholder="Email Address"
+            />
+          </div>
+          <div class="formgroup">
+            <label for="number"> Phone Number</label><br />
+            <input
+              type="number"
+              name="mynumber"
+              id="email"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="formgroup">
+            <div class="radio">
+              <input type="radio" name="radio" id="radio" />
+              <span>WEIGHT LOSS</span>
+
+              <input type="radio" name="radio" id="radio" />
+              <span>BODY BUIDLING</span>
+
+              <input type="radio" name="radio" id="radio" />
+              <span>BOOT CAMP</span><br />
+
+              <input type="radio" name="radio" id="radio" />
+              <span>CIRCUT TRAINING</span>
+
+              <input type="radio" name="radio" id="radio" />
+              <span>GROUP TRAINING</span>
+
+              <input type="radio" name="radio" id="radio" />
+              <span>NUTRITION</span>
+            </div>
+          </div>
+          <div class="formgroup1">
+            <label for="number"> How can i help?</label>
+            <br /><textarea
+              name="myname"
+              placeholder="Have Question?"
+            ></textarea>
+          </div>
+          <div class="formgroup">
+            <input type="submit" id="button" value="submit now" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p class="copy">© Copyright 2023 AP Fitness. All rights reserved.</p>
+    </footer>
+    <!-- Code injected by live-server -->
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
+    </script>
+  </body>
+</html>
